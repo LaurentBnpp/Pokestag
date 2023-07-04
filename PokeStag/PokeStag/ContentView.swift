@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var pokemons: [Pokemon] = []
+    @State private var isLoading = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.red)
-            Text("Hello, world!")
+        List(pokemons, id: \.name) { pokemon in
+            Text(pokemon.name)
         }
-        .padding()
+        .task {
+            do {
+                let response = try await PokemonRepository().fetchPokemons()
+                pokemons = response.results
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
     }
 }
 

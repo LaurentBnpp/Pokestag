@@ -14,6 +14,7 @@
 		4DAC36E82A544E8500454A0C /* PokeStagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC36E72A544E8500454A0C /* PokeStagTests.swift */; };
 		4DAC36F22A544E8500454A0C /* PokeStagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC36F12A544E8500454A0C /* PokeStagUITests.swift */; };
 		4DAC36F42A544E8500454A0C /* PokeStagUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC36F32A544E8500454A0C /* PokeStagUITestsLaunchTests.swift */; };
+		B28F87342A54B762002DE6B3 /* PokemonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F87332A54B762002DE6B3 /* PokemonRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4DAC36ED2A544E8500454A0C /* PokeStagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeStagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAC36F12A544E8500454A0C /* PokeStagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeStagUITests.swift; sourceTree = "<group>"; };
 		4DAC36F32A544E8500454A0C /* PokeStagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeStagUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B28F87332A54B762002DE6B3 /* PokemonRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				4DAC36D52A544E8200454A0C /* PokeStagApp.swift */,
 				4DAC36D72A544E8200454A0C /* ContentView.swift */,
+				B28F87332A54B762002DE6B3 /* PokemonRepository.swift */,
 				4DAC36D92A544E8500454A0C /* Assets.xcassets */,
 				4DAC36DB2A544E8500454A0C /* PokeStag.entitlements */,
 				4DAC36DC2A544E8500454A0C /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				4DAC36D82A544E8200454A0C /* ContentView.swift in Sources */,
 				4DAC36D62A544E8200454A0C /* PokeStagApp.swift in Sources */,
+				B28F87342A54B762002DE6B3 /* PokemonRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
