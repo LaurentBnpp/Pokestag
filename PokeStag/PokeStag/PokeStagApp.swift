@@ -11,7 +11,9 @@ import SwiftUI
 struct PokeStagApp: App {
     var body: some Scene {
         WindowGroup {
+            let pokemonAPI = PokemonAPI()
             ContentView()
+                .environmentObject(pokemonAPI)
         }
     }
 }

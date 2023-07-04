@@ -7,6 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1444412A5464EA00806AF4 /* BerryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444152A5464EA00806AF4 /* BerryService.swift */; };
+		4D1444422A5464EA00806AF4 /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444162A5464EA00806AF4 /* PokemonService.swift */; };
+		4D1444432A5464EA00806AF4 /* EvolutionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444172A5464EA00806AF4 /* EvolutionService.swift */; };
+		4D1444442A5464EA00806AF4 /* MoveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444182A5464EA00806AF4 /* MoveService.swift */; };
+		4D1444452A5464EA00806AF4 /* ItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444192A5464EA00806AF4 /* ItemService.swift */; };
+		4D1444462A5464EA00806AF4 /* UtilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14441A2A5464EA00806AF4 /* UtilityService.swift */; };
+		4D1444472A5464EA00806AF4 /* MachineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14441B2A5464EA00806AF4 /* MachineService.swift */; };
+		4D1444482A5464EA00806AF4 /* ContestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14441C2A5464EA00806AF4 /* ContestService.swift */; };
+		4D1444492A5464EA00806AF4 /* ResourceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14441D2A5464EA00806AF4 /* ResourceService.swift */; };
+		4D14444A2A5464EA00806AF4 /* EncounterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14441E2A5464EA00806AF4 /* EncounterService.swift */; };
+		4D14444B2A5464EA00806AF4 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14441F2A5464EA00806AF4 /* GameService.swift */; };
+		4D14444C2A5464EA00806AF4 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444202A5464EA00806AF4 /* LocationService.swift */; };
+		4D14444D2A5464EA00806AF4 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444222A5464EA00806AF4 /* Items.swift */; };
+		4D14444E2A5464EA00806AF4 /* Machines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444232A5464EA00806AF4 /* Machines.swift */; };
+		4D14444F2A5464EA00806AF4 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444242A5464EA00806AF4 /* Locations.swift */; };
+		4D1444502A5464EA00806AF4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444252A5464EA00806AF4 /* Utilities.swift */; };
+		4D1444512A5464EA00806AF4 /* Contests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444262A5464EA00806AF4 /* Contests.swift */; };
+		4D1444522A5464EA00806AF4 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444272A5464EA00806AF4 /* Pokemon.swift */; };
+		4D1444532A5464EA00806AF4 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444282A5464EA00806AF4 /* Resource.swift */; };
+		4D1444542A5464EA00806AF4 /* Moves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444292A5464EA00806AF4 /* Moves.swift */; };
+		4D1444552A5464EA00806AF4 /* Evolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14442A2A5464EA00806AF4 /* Evolution.swift */; };
+		4D1444562A5464EA00806AF4 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14442B2A5464EA00806AF4 /* Games.swift */; };
+		4D1444572A5464EA00806AF4 /* Encounters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14442C2A5464EA00806AF4 /* Encounters.swift */; };
+		4D1444582A5464EA00806AF4 /* PokemonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14442D2A5464EA00806AF4 /* PokemonAPI.swift */; };
+		4D1444592A5464EA00806AF4 /* Berries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14442E2A5464EA00806AF4 /* Berries.swift */; };
+		4D14445A2A5464EA00806AF4 /* HTTPWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444302A5464EA00806AF4 /* HTTPWebService.swift */; };
+		4D14445B2A5464EA00806AF4 /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444312A5464EA00806AF4 /* HTTPHeader.swift */; };
+		4D14445C2A5464EA00806AF4 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444322A5464EA00806AF4 /* APICall.swift */; };
+		4D14445D2A5464EA00806AF4 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444332A5464EA00806AF4 /* Pagination.swift */; };
+		4D14445E2A5464EA00806AF4 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444342A5464EA00806AF4 /* HTTPError.swift */; };
+		4D14445F2A5464EA00806AF4 /* Result+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444352A5464EA00806AF4 /* Result+Decode.swift */; };
+		4D1444602A5464EA00806AF4 /* SelfDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444372A5464EA00806AF4 /* SelfDecodable.swift */; };
+		4D1444612A5464EA00806AF4 /* URLResponse+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444382A5464EA00806AF4 /* URLResponse+.swift */; };
+		4D1444622A5464EA00806AF4 /* Data+JSONPretty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444392A5464EA00806AF4 /* Data+JSONPretty.swift */; };
+		4D1444632A5464EA00806AF4 /* SubscribersCompletion+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14443A2A5464EA00806AF4 /* SubscribersCompletion+.swift */; };
+		4D1444642A5464EA00806AF4 /* URLSession+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14443B2A5464EA00806AF4 /* URLSession+Request.swift */; };
+		4D1444652A5464EA00806AF4 /* Publisher+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14443C2A5464EA00806AF4 /* Publisher+JSON.swift */; };
+		4D1444662A5464EA00806AF4 /* Decodable+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14443D2A5464EA00806AF4 /* Decodable+Decode.swift */; };
+		4D1444672A5464EA00806AF4 /* URLRequest+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14443E2A5464EA00806AF4 /* URLRequest+.swift */; };
+		4D1444682A5464EA00806AF4 /* Publisher+Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D14443F2A5464EA00806AF4 /* Publisher+Result.swift */; };
+		4D1444692A5464EA00806AF4 /* URL+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1444402A5464EA00806AF4 /* URL+Query.swift */; };
 		4DAC36D62A544E8200454A0C /* PokeStagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC36D52A544E8200454A0C /* PokeStagApp.swift */; };
 		4DAC36D82A544E8200454A0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC36D72A544E8200454A0C /* ContentView.swift */; };
 		4DAC36DA2A544E8500454A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC36D92A544E8500454A0C /* Assets.xcassets */; };
@@ -34,6 +75,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D1444152A5464EA00806AF4 /* BerryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerryService.swift; sourceTree = "<group>"; };
+		4D1444162A5464EA00806AF4 /* PokemonService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
+		4D1444172A5464EA00806AF4 /* EvolutionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvolutionService.swift; sourceTree = "<group>"; };
+		4D1444182A5464EA00806AF4 /* MoveService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveService.swift; sourceTree = "<group>"; };
+		4D1444192A5464EA00806AF4 /* ItemService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemService.swift; sourceTree = "<group>"; };
+		4D14441A2A5464EA00806AF4 /* UtilityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityService.swift; sourceTree = "<group>"; };
+		4D14441B2A5464EA00806AF4 /* MachineService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineService.swift; sourceTree = "<group>"; };
+		4D14441C2A5464EA00806AF4 /* ContestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestService.swift; sourceTree = "<group>"; };
+		4D14441D2A5464EA00806AF4 /* ResourceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceService.swift; sourceTree = "<group>"; };
+		4D14441E2A5464EA00806AF4 /* EncounterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncounterService.swift; sourceTree = "<group>"; };
+		4D14441F2A5464EA00806AF4 /* GameService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		4D1444202A5464EA00806AF4 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		4D1444222A5464EA00806AF4 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		4D1444232A5464EA00806AF4 /* Machines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Machines.swift; sourceTree = "<group>"; };
+		4D1444242A5464EA00806AF4 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		4D1444252A5464EA00806AF4 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4D1444262A5464EA00806AF4 /* Contests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contests.swift; sourceTree = "<group>"; };
+		4D1444272A5464EA00806AF4 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		4D1444282A5464EA00806AF4 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		4D1444292A5464EA00806AF4 /* Moves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moves.swift; sourceTree = "<group>"; };
+		4D14442A2A5464EA00806AF4 /* Evolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evolution.swift; sourceTree = "<group>"; };
+		4D14442B2A5464EA00806AF4 /* Games.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		4D14442C2A5464EA00806AF4 /* Encounters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encounters.swift; sourceTree = "<group>"; };
+		4D14442D2A5464EA00806AF4 /* PokemonAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAPI.swift; sourceTree = "<group>"; };
+		4D14442E2A5464EA00806AF4 /* Berries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Berries.swift; sourceTree = "<group>"; };
+		4D1444302A5464EA00806AF4 /* HTTPWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPWebService.swift; sourceTree = "<group>"; };
+		4D1444312A5464EA00806AF4 /* HTTPHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeader.swift; sourceTree = "<group>"; };
+		4D1444322A5464EA00806AF4 /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		4D1444332A5464EA00806AF4 /* Pagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		4D1444342A5464EA00806AF4 /* HTTPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		4D1444352A5464EA00806AF4 /* Result+Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+Decode.swift"; sourceTree = "<group>"; };
+		4D1444372A5464EA00806AF4 /* SelfDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfDecodable.swift; sourceTree = "<group>"; };
+		4D1444382A5464EA00806AF4 /* URLResponse+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLResponse+.swift"; sourceTree = "<group>"; };
+		4D1444392A5464EA00806AF4 /* Data+JSONPretty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+JSONPretty.swift"; sourceTree = "<group>"; };
+		4D14443A2A5464EA00806AF4 /* SubscribersCompletion+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SubscribersCompletion+.swift"; sourceTree = "<group>"; };
+		4D14443B2A5464EA00806AF4 /* URLSession+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Request.swift"; sourceTree = "<group>"; };
+		4D14443C2A5464EA00806AF4 /* Publisher+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+JSON.swift"; sourceTree = "<group>"; };
+		4D14443D2A5464EA00806AF4 /* Decodable+Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Decodable+Decode.swift"; sourceTree = "<group>"; };
+		4D14443E2A5464EA00806AF4 /* URLRequest+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+.swift"; sourceTree = "<group>"; };
+		4D14443F2A5464EA00806AF4 /* Publisher+Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+Result.swift"; sourceTree = "<group>"; };
+		4D1444402A5464EA00806AF4 /* URL+Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Query.swift"; sourceTree = "<group>"; };
 		4DAC36D22A544E8200454A0C /* PokeStag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeStag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAC36D52A544E8200454A0C /* PokeStagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeStagApp.swift; sourceTree = "<group>"; };
 		4DAC36D72A544E8200454A0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +127,7 @@
 		4DAC36ED2A544E8500454A0C /* PokeStagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeStagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAC36F12A544E8500454A0C /* PokeStagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeStagUITests.swift; sourceTree = "<group>"; };
 		4DAC36F32A544E8500454A0C /* PokeStagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeStagUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DAC37002A5450E800454A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +155,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1444132A5464EA00806AF4 /* PokemonAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4D1444142A5464EA00806AF4 /* WebServices */,
+				4D1444212A5464EA00806AF4 /* Classes */,
+				4D14442F2A5464EA00806AF4 /* Network */,
+				4D1444362A5464EA00806AF4 /* Utilities */,
+			);
+			path = PokemonAPI;
+			sourceTree = "<group>";
+		};
+		4D1444142A5464EA00806AF4 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				4D1444152A5464EA00806AF4 /* BerryService.swift */,
+				4D1444162A5464EA00806AF4 /* PokemonService.swift */,
+				4D1444172A5464EA00806AF4 /* EvolutionService.swift */,
+				4D1444182A5464EA00806AF4 /* MoveService.swift */,
+				4D1444192A5464EA00806AF4 /* ItemService.swift */,
+				4D14441A2A5464EA00806AF4 /* UtilityService.swift */,
+				4D14441B2A5464EA00806AF4 /* MachineService.swift */,
+				4D14441C2A5464EA00806AF4 /* ContestService.swift */,
+				4D14441D2A5464EA00806AF4 /* ResourceService.swift */,
+				4D14441E2A5464EA00806AF4 /* EncounterService.swift */,
+				4D14441F2A5464EA00806AF4 /* GameService.swift */,
+				4D1444202A5464EA00806AF4 /* LocationService.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		4D1444212A5464EA00806AF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D1444222A5464EA00806AF4 /* Items.swift */,
+				4D1444232A5464EA00806AF4 /* Machines.swift */,
+				4D1444242A5464EA00806AF4 /* Locations.swift */,
+				4D1444252A5464EA00806AF4 /* Utilities.swift */,
+				4D1444262A5464EA00806AF4 /* Contests.swift */,
+				4D1444272A5464EA00806AF4 /* Pokemon.swift */,
+				4D1444282A5464EA00806AF4 /* Resource.swift */,
+				4D1444292A5464EA00806AF4 /* Moves.swift */,
+				4D14442A2A5464EA00806AF4 /* Evolution.swift */,
+				4D14442B2A5464EA00806AF4 /* Games.swift */,
+				4D14442C2A5464EA00806AF4 /* Encounters.swift */,
+				4D14442D2A5464EA00806AF4 /* PokemonAPI.swift */,
+				4D14442E2A5464EA00806AF4 /* Berries.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4D14442F2A5464EA00806AF4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4D1444302A5464EA00806AF4 /* HTTPWebService.swift */,
+				4D1444312A5464EA00806AF4 /* HTTPHeader.swift */,
+				4D1444322A5464EA00806AF4 /* APICall.swift */,
+				4D1444332A5464EA00806AF4 /* Pagination.swift */,
+				4D1444342A5464EA00806AF4 /* HTTPError.swift */,
+				4D1444352A5464EA00806AF4 /* Result+Decode.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4D1444362A5464EA00806AF4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4D1444372A5464EA00806AF4 /* SelfDecodable.swift */,
+				4D1444382A5464EA00806AF4 /* URLResponse+.swift */,
+				4D1444392A5464EA00806AF4 /* Data+JSONPretty.swift */,
+				4D14443A2A5464EA00806AF4 /* SubscribersCompletion+.swift */,
+				4D14443B2A5464EA00806AF4 /* URLSession+Request.swift */,
+				4D14443C2A5464EA00806AF4 /* Publisher+JSON.swift */,
+				4D14443D2A5464EA00806AF4 /* Decodable+Decode.swift */,
+				4D14443E2A5464EA00806AF4 /* URLRequest+.swift */,
+				4D14443F2A5464EA00806AF4 /* Publisher+Result.swift */,
+				4D1444402A5464EA00806AF4 /* URL+Query.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		4DAC36C92A544E8200454A0C = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +258,8 @@
 		4DAC36D42A544E8200454A0C /* PokeStag */ = {
 			isa = PBXGroup;
 			children = (
+				4D1444132A5464EA00806AF4 /* PokemonAPI */,
+				4DAC37002A5450E800454A0C /* Info.plist */,
 				4DAC36D52A544E8200454A0C /* PokeStagApp.swift */,
 				4DAC36D72A544E8200454A0C /* ContentView.swift */,
 				4DAC36D92A544E8500454A0C /* Assets.xcassets */,
@@ -259,8 +424,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1444642A5464EA00806AF4 /* URLSession+Request.swift in Sources */,
+				4D14445D2A5464EA00806AF4 /* Pagination.swift in Sources */,
+				4D14444C2A5464EA00806AF4 /* LocationService.swift in Sources */,
+				4D1444512A5464EA00806AF4 /* Contests.swift in Sources */,
+				4D14445C2A5464EA00806AF4 /* APICall.swift in Sources */,
+				4D14445A2A5464EA00806AF4 /* HTTPWebService.swift in Sources */,
+				4D1444612A5464EA00806AF4 /* URLResponse+.swift in Sources */,
+				4D14444F2A5464EA00806AF4 /* Locations.swift in Sources */,
+				4D1444622A5464EA00806AF4 /* Data+JSONPretty.swift in Sources */,
+				4D1444562A5464EA00806AF4 /* Games.swift in Sources */,
+				4D14445F2A5464EA00806AF4 /* Result+Decode.swift in Sources */,
+				4D1444662A5464EA00806AF4 /* Decodable+Decode.swift in Sources */,
+				4D14444E2A5464EA00806AF4 /* Machines.swift in Sources */,
+				4D14444D2A5464EA00806AF4 /* Items.swift in Sources */,
+				4D1444522A5464EA00806AF4 /* Pokemon.swift in Sources */,
+				4D1444532A5464EA00806AF4 /* Resource.swift in Sources */,
+				4D1444452A5464EA00806AF4 /* ItemService.swift in Sources */,
+				4D1444632A5464EA00806AF4 /* SubscribersCompletion+.swift in Sources */,
+				4D1444572A5464EA00806AF4 /* Encounters.swift in Sources */,
+				4D1444682A5464EA00806AF4 /* Publisher+Result.swift in Sources */,
+				4D1444442A5464EA00806AF4 /* MoveService.swift in Sources */,
+				4D14445B2A5464EA00806AF4 /* HTTPHeader.swift in Sources */,
+				4D1444652A5464EA00806AF4 /* Publisher+JSON.swift in Sources */,
+				4D1444592A5464EA00806AF4 /* Berries.swift in Sources */,
+				4D1444502A5464EA00806AF4 /* Utilities.swift in Sources */,
+				4D1444582A5464EA00806AF4 /* PokemonAPI.swift in Sources */,
+				4D1444542A5464EA00806AF4 /* Moves.swift in Sources */,
+				4D1444692A5464EA00806AF4 /* URL+Query.swift in Sources */,
+				4D14444B2A5464EA00806AF4 /* GameService.swift in Sources */,
+				4D14445E2A5464EA00806AF4 /* HTTPError.swift in Sources */,
+				4D1444482A5464EA00806AF4 /* ContestService.swift in Sources */,
 				4DAC36D82A544E8200454A0C /* ContentView.swift in Sources */,
+				4D1444432A5464EA00806AF4 /* EvolutionService.swift in Sources */,
+				4D1444552A5464EA00806AF4 /* Evolution.swift in Sources */,
+				4D1444462A5464EA00806AF4 /* UtilityService.swift in Sources */,
+				4D1444422A5464EA00806AF4 /* PokemonService.swift in Sources */,
 				4DAC36D62A544E8200454A0C /* PokeStagApp.swift in Sources */,
+				4D1444602A5464EA00806AF4 /* SelfDecodable.swift in Sources */,
+				4D1444492A5464EA00806AF4 /* ResourceService.swift in Sources */,
+				4D14444A2A5464EA00806AF4 /* EncounterService.swift in Sources */,
+				4D1444472A5464EA00806AF4 /* MachineService.swift in Sources */,
+				4D1444672A5464EA00806AF4 /* URLRequest+.swift in Sources */,
+				4D1444412A5464EA00806AF4 /* BerryService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +625,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokeStag/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -429,7 +637,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -457,6 +665,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokeStag/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -467,7 +677,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
